@@ -1,2 +1,2 @@
 Test
-![Task List Mockup](task_list.mockup.png)
+![Task List Mockup](task_list_mockup.png)
