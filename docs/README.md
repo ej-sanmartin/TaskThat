@@ -1,5 +1,4 @@
 # TaskThat Mockup
-==========
 
 ![Task List Mockup](task_list_mockup.png)
 -------------------------------------------
@@ -7,7 +6,6 @@
 ## Description
 
 Going for simple and pleasant. Desktop mockup, mobile will just have the lists with no surrounding white space. Love the colour blue. Made in Figma.
-
 
 ## Iterations
 
