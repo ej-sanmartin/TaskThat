@@ -1,3 +1,40 @@
+/* For tablets and smaller screened laptops */
+@media only screen and (max-width: 1250px) {
+
+}
+
+/* For mobile phones, in portrait orientation */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* For mobile iphones < 8, in landscape orientation */
+@media only screen
+and (min-device-width: 319px)
+and (max-device-width: 668px)
+and (orientation: landscape)
+and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* For mobile iphones > X, in landscape orientation */
+@media only screen
+and (min-device-width: 669px)
+and (max-device-width: 820px)
+and (orientation: landscape)
+and (-webkit-device-pixel-ratio: 3) {
+  
+}
+
+// Samsung S5 and Moto G4 landscape oriented styles
+@media only screen
+and (min-device-width: 360px)
+and (max-device-height: 640px)
+and (orientation: landscape)
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
 .App {
   text-align: center;
 }
