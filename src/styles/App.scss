@@ -1,3 +1,5 @@
+@use 'mixins' as *;
+
 /* For tablets and smaller screened laptops */
 @media only screen and (max-width: 1250px) {
 
@@ -35,4 +37,12 @@ and (-webkit-device-pixel-ratio: 3) {
 
 }
 
+.app-page {
+    @include centerify;
+}
 
+.main-container {
+    background-color: red;
+    height: 800px;
+    width: 400px;
+}
