@@ -1,0 +1,29 @@
+@use './variables';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: black; // variables.$base-font-colour;
+  margin: 0;
+  padding: 0;
+
+  &::selection {
+      background-color: white; // variables.$light-font-colour;
+  }
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: fixed;
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;
+}
