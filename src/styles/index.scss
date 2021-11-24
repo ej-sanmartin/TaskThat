@@ -1,4 +1,5 @@
 @use './variables';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,6 +7,8 @@
   color: black; // variables.$base-font-colour;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 
   &::selection {
       background-color: white; // variables.$light-font-colour;

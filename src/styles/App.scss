@@ -43,6 +43,6 @@ and (-webkit-device-pixel-ratio: 3) {
 
 .main-container {
     background-color: red;
-    height: 800px;
-    width: 400px;
+    height: fit-content;
+    width: 350px;
 }
