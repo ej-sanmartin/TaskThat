@@ -1,21 +1,29 @@
-import './App.scss';
+import '../src/styles/App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-page">
+      <div className="main-container">
+        <h2>Task List</h2>
+        <div>
+          <p>1 out 4 items done</p>
+          <button>Clear Done</button>
+          <button>Clear All</button>
+        </div>
+        <input
+          type="text"
+          placeholder="I need to do..."
+        />
+        <div>
+          <button>Newest Tasks</button>
+          <button>Remaining</button>
+        </div>
+        <div>
+          <h3>Workout</h3>
+          <button>!</button>
+          <button>X</button>
+        </div>
+      </div>
     </div>
   );
 }
